@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+</head>
+<body>
+
+    <h1>University Student Information</h1>
+
+    <div id="studentInfo"></div>
+
+    <script>
+        // Declare student variables
+        let studentName = "Muhammad Rehan";
+        let rollNumber = "BSSE-2026";
+        let department = "Software Engineering";
+        let semester = "1st Semester";
+
+        // Display information using innerHTML
+        document.getElementById("studentInfo").innerHTML = `
+            <h2>Student Details</h2>
+            <p><b>Student Name:</b> ${studentName}</p>
+            <p><b>Roll Number:</b> ${rollNumber}</p>
+            <p><b>Department:</b> ${department}</p>
+            <p><b>Semester:</b> ${semester}</p>
+        `;
+    </script>
+
+</body>
+</html>
+
